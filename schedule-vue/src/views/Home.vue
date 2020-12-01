@@ -3,9 +3,9 @@
 		<body style="width: 1024px; height: 768px;">
 			<div id="div1">
 				<span class="text1">刘总的日程安排项目</span>
-				<input type="text" name="input1" id="input1" value="请输入项目名称"/>
-				<input type="date" name="input2" id="input2" value="" />
-				<button type="button" id="btn1">搜 索</button>
+				<input type="text" name="input1" id="input1" value="" placeholder="请输入项目的名称"/>
+				<input type="date" name="input2" id="input2" value=""  />
+				<button type="button" id="btn1" @click="but1click">搜 索</button>
 			</div>
 			<div id="div2">
 				<div id="div21">
@@ -38,7 +38,13 @@
 		},
 		methods:{
 			//点击输入框即选中所有内容
-	
+			but1click(){
+				//返回项目名称和相应的时间
+				var input1 = document.getElementById("input1");
+				var input2 = document.getElementById("input2");
+				alert(input1.value + "  " +input2.value);
+				
+			},
 			update(){
 				
 			}

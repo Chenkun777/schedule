@@ -14,6 +14,6 @@
   color: #2c3e50;
   width: 1024px;
   height: 768px;
-  overflow: hidden;
+  //overflow: hidden;
 }
 </style>
