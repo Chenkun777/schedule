@@ -2,17 +2,10 @@
 	<div class="home">
 		<body style="width: 1024px; height: 768px;">
 			<div id="div1">
-<<<<<<< HEAD
-				<span class="text1">日程安排项目</span>
-				<input type="text" name="input1" id="input1" value="请输入项目名称"/>
-				<input type="date" name="input2" id="input2" value="" />
-				<button type="button" id="btn1">搜 索</button>
-=======
 				<span class="text1">刘总的日程安排项目</span>
 				<input type="text" name="input1" id="input1" value="" placeholder="请输入项目的名称"/>
 				<input type="date" name="input2" id="input2" value=""  />
 				<button type="button" id="btn1" @click="but1click">搜 索</button>
->>>>>>> 9ef57f4db0c7287e2b8e0629638753ef5a25eee5
 			</div>
 			<div id="div2">
 				<div id="div21">
