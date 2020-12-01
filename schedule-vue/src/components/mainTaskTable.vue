@@ -45,7 +45,10 @@ export default {
   },
   methods: {
     getJson() {
-      //let url = "../assets/mainTask.json";
+      let url = "../assets/mainTask.json";
+      this.$axios({ url: url, method: "get" }).then((response) => {
+        console.log(response);
+      });
     },
   },
   mounted() {
