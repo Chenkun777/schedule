@@ -3,7 +3,7 @@
 		<body style="width: 1024px; height: 768px;">
 			<div id="div1">
 				<span class="text1">刘总的日程安排项目</span>
-				<input type="text" name="input1" id="input1" value="请输入项目名称" />
+				<input type="text" name="input1" id="input1" value="请输入项目名称"/>
 				<input type="date" name="input2" id="input2" value="" />
 				<button type="button" id="btn1">搜 索</button>
 			</div>
@@ -15,7 +15,10 @@
 				<div id="div3">
 					<span class="text3">项目列表</span>
 					<select NAME="TEMP" id="select1">
-						<option value="AAAAAA">AAAAAA</option>
+						<option value="">全部</option>
+						<option value="">已完成</option>
+						<option value="">进行中</option>
+						<option value="">已延期</option>
 					</select>
 					<p id="p1" @click="update"></p>
 					<mainTaskTable></mainTaskTable>
@@ -34,6 +37,8 @@
 			mainTaskTable,
 		},
 		methods:{
+			//点击输入框即选中所有内容
+	
 			update(){
 				
 			}

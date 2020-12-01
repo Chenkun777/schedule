@@ -6,15 +6,17 @@
 				<td>startTime</td>
 				<td>endTime</td>
 				<td>participant</td>
+				<td>processBar</td>
 			</tr>
 			<tr v-for="(item,index) in mainTask" :key="index">
 				<td>{{item.name}}</td>
 				<td>{{item.startTime}}</td>
 				<td>{{item.endTime}}</td>
 				<td>{{item.participant[0]}},{{item.participant[0]}}</td>
+				<td>{{item.processBar}}</td>
 			</tr>
 		</table>
-		<img src="../assets/addProject.png" />
+		<!-- <img src="../assets/addProject.png" /> -->
 	</div>
 </template>
 
@@ -27,13 +29,15 @@
 						"name": "countdown",
 						"startTime": "2020.11.27",
 						"endTime": "2020.11.27",
-						"participant": ["kunzong", "ganfanwang"]
+						"participant": ["kunzong", "ganfanwang"],
+						"processBar":"100%"
 					},
 					{
 						"name": "schedule",
 						"startTime": "2020.11.29",
 						"endTime": "2020.12.06",
-						"participant": ["kunzong", "ganfanwang"]
+						"participant": ["kunzong", "ganfanwang"],
+						"processBar":"10%"
 					},
 				]
 			};
