@@ -2,7 +2,7 @@
 	<div class="home">
 		<body style="width: 1024px; height: 768px;">
 			<div id="div1">
-				<span class="text1">刘总的日程安排项目</span>
+				<span class="text1">日程安排项目</span>
 				<input type="text" name="input1" id="input1" value="请输入项目名称"/>
 				<input type="date" name="input2" id="input2" value="" />
 				<button type="button" id="btn1">搜 索</button>
@@ -40,7 +40,6 @@
 			//点击输入框即选中所有内容
 	
 			update(){
-				
 			}
 		}
 	};
@@ -139,14 +138,14 @@
 	}
 
 	#img1 {
-		top: 40px;
+		top: 36px;
 		left: 50px;
 		position: absolute;
 	}
 
 	.text2 {
 		top: 40px;
-		left: 90px;
+		left: 110px;
 		position: absolute;
 		font-weight: bold;
 	}
@@ -171,7 +170,7 @@
 	.text3 {
 		width: 112px;
 		height: 34px;
-		left: 90px;
+		left: 50px;
 		top: 50px;
 		font-size: 28px;
 		font-weight: bold;
